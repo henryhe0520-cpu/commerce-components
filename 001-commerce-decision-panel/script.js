@@ -1,34 +1,32 @@
  <script>
+fetch("demo-data.json")
+  .then(response => response.json())
+  .then(data => {
+    const products = data.products;
 
-const products = [
-  {
-    name: "Cloud Sofa",
-    size: "2800 × 1100 × 800 mm",
-    material: "Solid wood + High-density foam",
-    price: "$5,635",
-    description: "Soft curved sofa designed for modern living rooms."
-  },
-  {
-    name: "Modern Sofa",
-    size: "3000 × 1020 × 700 mm",
-    material: "Solid wood + Foam",
-    price: "$6,400",
-    description: "Minimal contemporary sofa."
-  }
-];
+    const optionsContainer = document.getElementById("options");
 
-const optionsContainer = document.getElementById("options");
+    const panelTitle = document.getElementById("panel-title");
+    const panelSize = document.getElementById("panel-size");
+    const panelMaterial = document.getElementById("panel-material");
+    const panelPrice = document.getElementById("panel-price");
+    const panelDescription = document.getElementById("panel-description");
 
-products.forEach(product => {
+    products.forEach(product => {
+      const card = document.createElement("div");
+      card.className = "option-card";
+      card.textContent = product.title;
 
-  const card = document.createElement("div");
+      card.addEventListener("click", () => {
+        panelTitle.textContent = product.title;
+        panelSize.textContent = product.size;
+        panelMaterial.textContent = product.material;
+        panelPrice.textContent = product.price;
+        panelDescription.textContent = product.description;
+      });
 
-  card.className = "option-card";
+      optionsContainer.appendChild(card);
+    });
+  });
 
-  card.textContent = product.name;
 
-  optionsContainer.appendChild(card);
-
-});
-
-</script>
