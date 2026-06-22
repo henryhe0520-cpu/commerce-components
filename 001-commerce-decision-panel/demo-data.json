@@ -1,1 +1,58 @@
-
+{
+  "products": [
+    {
+      "id": "cloud-sofa",
+      "title": "Cloud Sofa",
+      "category": "Sofa",
+      "size": "2800 × 1100 × 800 mm",
+      "material": "Solid wood frame, high-density foam",
+      "price": "$5,278",
+      "description": "A modern cloud sofa with soft seating comfort."
+    },
+    {
+      "id": "modern-sofa",
+      "title": "Modern Sofa",
+      "category": "Sofa",
+      "size": "3000 × 1020 × 700 mm",
+      "material": "Solid wood frame",
+      "price": "$6,400",
+      "description": "A bold statement sofa for larger living spaces."
+    },
+    {
+      "id": "emerald-sofa",
+      "title": "Emerald Sofa",
+      "category": "Sofa",
+      "size": "3000 × 1020 × 700 mm",
+      "material": "Solid wood frame, high-density foam",
+      "price": "$6,400",
+      "description": "A premium sofa option for large modern rooms."
+    },
+    {
+      "id": "round-coffee-table",
+      "title": "Round Coffee Table",
+      "category": "Coffee Table",
+      "size": "90 × 34 cm / 60 × 44 cm",
+      "material": "E1 board, painted finish",
+      "price": "$1,500",
+      "description": "A compact round coffee table set for smaller living rooms."
+    },
+    {
+      "id": "luxury-table",
+      "title": "Luxury Table",
+      "category": "Coffee Table",
+      "size": "90 × 34 cm / 50 × 47 cm",
+      "material": "E1 board, decorative finish",
+      "price": "$1,800",
+      "description": "A decorative table set with stronger visual presence."
+    },
+    {
+      "id": "marble-table",
+      "title": "Marble Table",
+      "category": "Coffee Table",
+      "size": "89 × 33 cm / 55 × 45 cm",
+      "material": "E1 board, printed marble finish",
+      "price": "$1,500",
+      "description": "A sculptural coffee table designed as a living room centerpiece."
+    }
+  ]
+}
