@@ -1,8 +1,10 @@
 # Commerce Decision Panel
 
-Component 001
+Version 0.1
 
-A responsive Shopify component that displays detailed product information beside configurable product options.
+A product decision panel that helps customers compare configurable product options without leaving the product page.
+
+Designed to reduce purchase hesitation and increase conversion for high-value configurable products.
 
 ---
 
@@ -31,3 +33,13 @@ A responsive Shopify component that displays detailed product information beside
 ## Status
 
 In Development
+
+---
+
+## Design Principles
+
+- Minimize decision fatigue
+- Keep customers on the product page
+- Reduce unnecessary clicks
+- Show enough information before selection
+- Build confidence before purchase
