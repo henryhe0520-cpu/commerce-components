@@ -16,7 +16,7 @@ fetch("demo-data.json")
       card.className = "option-card";
       card.textContent = product.title;
 
-      card.addEventListener("click", () => {
+     card.addEventListener("mouseenter", () => {
         panelTitle.textContent = product.title;
         panelSize.textContent = product.size;
         panelMaterial.textContent = product.material;
