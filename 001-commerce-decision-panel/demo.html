@@ -81,24 +81,24 @@
       <h1>Commerce Decision Panel</h1>
       <p>Hover over a product option to preview details.</p>
 
-      <div class="options">
-        <div class="option-card">Cloud Sofa</div>
-        <div class="option-card">Modern Sofa</div>
-        <div class="option-card">Emerald Sofa</div>
-        <div class="option-card">Round Coffee Table</div>
-        <div class="option-card">Luxury Table</div>
-        <div class="option-card">Marble Table</div>
-      </div>
+      <div class="options" id="options"></div>
     </div>
 
-    <div class="decision-panel">
-      <h2>Select an item</h2>
-      <div class="preview-image"></div>
-      <p><strong>Size:</strong> --</p>
-      <p><strong>Material:</strong> --</p>
-      <p><strong>Reference Price:</strong> --</p>
-      <p>Product details will appear here.</p>
-    </div>
+  <div class="decision-panel">
+  <h2 id="panel-title">Select an item</h2>
+
+  <div class="preview-image" id="panel-image"></div>
+
+  <p><strong>Size:</strong> <span id="panel-size">--</span></p>
+
+  <p><strong>Material:</strong> <span id="panel-material">--</span></p>
+
+  <p><strong>Reference Price:</strong> <span id="panel-price">--</span></p>
+
+  <p id="panel-description">
+    Product details will appear here.
+  </p>
+</div>
   </div>
 </body>
 </html>
